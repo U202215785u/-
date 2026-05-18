@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npm --version)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
+      "Read(//c/Users/Administrator/vibecoding/**)",
+      "Bash(rm -rf _temp_nextjs)",
+      "Bash(npx create-next-app@latest _temp_nextjs --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
+      "Bash(rm -rf temp-nextjs)",
+      "Bash(npx create-next-app@latest temp-nextjs --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack)",
+      "Bash(cp -r \"C:/Users/Administrator/vibecoding/temp-nextjs/\"* \"C:/Users/Administrator/vibecoding/咸鱼美术组/\")",
+      "Bash(cp \"C:/Users/Administrator/vibecoding/temp-nextjs/.gitignore\" \"C:/Users/Administrator/vibecoding/咸鱼美术组/\")",
+      "Bash(cp \"C:/Users/Administrator/vibecoding/temp-nextjs/package.json\" \"C:/Users/Administrator/vibecoding/咸鱼美术组/\")",
+      "Bash(cp \"C:/Users/Administrator/vibecoding/temp-nextjs/tsconfig.json\" \"C:/Users/Administrator/vibecoding/咸鱼美术组/\")",
+      "Bash(cp \"C:/Users/Administrator/vibecoding/temp-nextjs/postcss.config.mjs\" \"C:/Users/Administrator/vibecoding/咸鱼美术组/\")",
+      "Bash(cp \"C:/Users/Administrator/vibecoding/temp-nextjs/package-lock.json\" \"C:/Users/Administrator/vibecoding/咸鱼美术组/\")",
+      "Bash(cp -r \"C:/Users/Administrator/vibecoding/temp-nextjs/public\" \"C:/Users/Administrator/vibecoding/咸鱼美术组/\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)",
+      "Bash(npm install *)",
+      "Bash(npx tsx *)",
+      "Bash(npm run *)",
+      "Bash(npx drizzle-kit *)",
+      "WebFetch(domain:localhost)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(claude /plugin marketplace add manalkaff/opendesign)"
+    ]
+  }
+}

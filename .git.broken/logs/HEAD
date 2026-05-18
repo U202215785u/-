@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 c1931dac289e8a38ec946d98f43704f079467006 Developer <dev@saltyfish-art.local> 1779048496 +0800	commit (initial): Task 1.1: Create Next.js project with TypeScript, Tailwind, ESLint, App Router, src directory
+c1931dac289e8a38ec946d98f43704f079467006 419dadcbe541159324717abdbdf7855e250670ae Developer <dev@saltyfish-art.local> 1779048659 +0800	commit: Task 1.2: Install dependencies (drizzle-orm, @neondatabase/serverless, drizzle-kit, bcryptjs, jose, openai, @types/bcryptjs)
+419dadcbe541159324717abdbdf7855e250670ae 8b811b46e481c4339a00e3a56abfabc15c664592 Developer <dev@saltyfish-art.local> 1779048695 +0800	commit: Task 1.4: Create drizzle.config.ts
+8b811b46e481c4339a00e3a56abfabc15c664592 d6048b24c5bba7ddb7ea48a974d5d19c7576daf5 Developer <dev@saltyfish-art.local> 1779048711 +0800	commit: Task 1.5: Create database connection (src/db/index.ts)
+d6048b24c5bba7ddb7ea48a974d5d19c7576daf5 1a32d952a1e582505f4763eeb1f17ec6007d6820 Developer <dev@saltyfish-art.local> 1779048731 +0800	commit: Task 1.6: Create database Schema (competitions + admins tables)
+1a32d952a1e582505f4763eeb1f17ec6007d6820 debd54d090b2bdfe13f40da6a75fe68abc181cdd Developer <dev@saltyfish-art.local> 1779048864 +0800	commit: Task 1.8: Create seed script (src/db/seed.ts)
+debd54d090b2bdfe13f40da6a75fe68abc181cdd 0d96a5aa8523b105350830f51c531e18e61f2efd Developer <dev@saltyfish-art.local> 1779048894 +0800	commit: Task 1.9: Create .env.example, add gitignore exception for it
+0d96a5aa8523b105350830f51c531e18e61f2efd f2863918e6de1becd491ee70aca7646723a0102d Developer <dev@saltyfish-art.local> 1779048936 +0800	commit: Phase 1 complete: All tasks 1.1-1.9 done, build passes
+f2863918e6de1becd491ee70aca7646723a0102d 68927769886e01055cbcd7e05350cd28cc71c95d Developer <dev@saltyfish-art.local> 1779068324 +0000	commit: 上线准备：部署脚本、next standalone、环境变量模板、AGENTS/README 更新
