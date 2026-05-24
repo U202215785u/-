@@ -25,6 +25,8 @@ export async function POST(request: NextRequest) {
     awards: body.awards || "", specFormat: body.specFormat || "",
     aiPolicy: body.aiPolicy || "", isMoeCompetition: body.isMoeCompetition || "false",
     dataVerified: body.dataVerified || "false",
+    confidence: body.confidence || "",
+    sourceNote: body.sourceNote || "",
     detailBody: body.detailBody || "",
   }).returning();
   return NextResponse.json({ success: true, data: inserted }, { status: 201 });

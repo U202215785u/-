@@ -22,6 +22,8 @@ export interface Competition {
   officialUrl: string;
   status: "draft" | "published" | "archived";
   source: "manual" | "ai";
+  confidence: string;
+  sourceNote: string;
   deadlines: CompetitionDeadline[];
   categories: string[];
   eligibility: string;

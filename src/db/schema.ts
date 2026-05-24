@@ -15,6 +15,10 @@ export const competitions = pgTable("competitions", {
   status: varchar("status", { length: 16 }).notNull().default("draft"),
   source: varchar("source", { length: 16 }).notNull().default("manual"),
 
+  // Quality tracking fields
+  confidence: varchar("confidence", { length: 16 }).default(""),
+  sourceNote: text("source_note").default(""),
+
   deadlines: jsonb("deadlines").default([]),
   categories: jsonb("categories").default([]),
   eligibility: text("eligibility").default(""),
